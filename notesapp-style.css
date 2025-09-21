@@ -12,11 +12,17 @@
 }
 
 #notearea{
-    line-height: 400px;
-    width: 100%;
-    border-radius: 10px;
-    border: solid rgb(128, 127, 127) 2px;
+    height: 650px;
+    width: 97%;
+    border-radius: 20px;
+    border: solid white 2px;
+    /*so box shadow gives the 3d effect, 0 for shadow up/down 4px for shadow right(positive
+    value) 10px for the border radius, 10px for how outward the shadow grows*/
+    box-shadow: 0 4px 10px 10px grey;
     font-size: 23px;
+    text-align: left;
+    vertical-align: top;
+    line-height: 25px;
 }
 
 #notearea::placeholder{
